@@ -1,10 +1,10 @@
-// var express = require('express');
-// var router = express.Router();
+var express = require('express');
+var router = express.Router();
 
 
-// router.get('/product', function(req, res) {
+router.get('/product', function(req, res) {
 
-//     res.send('api start');
-// });
+    res.send('api start');
+});
 
-// module.exports = router;
+module.exports = router;
